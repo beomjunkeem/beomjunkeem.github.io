@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## A New Post
 
@@ -18,5 +18,3 @@ quote
 
 -dot
 1.number
-
-
