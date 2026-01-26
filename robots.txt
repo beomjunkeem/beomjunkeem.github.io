@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://junkeem.com/sitemap.xml
+Sitemap: https://beomjunkeem.github.io/sitemap.xml
