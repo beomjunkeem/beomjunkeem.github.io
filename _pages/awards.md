@@ -6,8 +6,6 @@ nav: true
 nav_order: 3
 ---
 
-## Awards
-
 Creative Challenge Program (CCP): Excellence Award   President's Award from Korea University   Feb 2024 Seoul Korea
 
 Creathon in Samsung Value Program (SVP): 1st place   Samsung Electronics Co., Ltd.   Jan 2024 Yongin Korea
