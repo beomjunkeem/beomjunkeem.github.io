@@ -27,7 +27,7 @@ cv:
         location: Los Angeles, California
         url: https://www.ucla.edu/
         area: Mechanical Engineering
-        studyType: MS/PhD
+        studyType: M.S./Ph.D.
         start_date: 2025
         end_date: 
         score: ""
@@ -37,43 +37,29 @@ cv:
       - institution: Korea University
         location: Seoul, Korea
         area: Mechanical Engineering
-        studyType: Bs
+        studyType: B.S.
         start_date: 2017
         end_date: 2024
         highlights:
           - Valedictorian (top-ranked graduate of the class)
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+    Professional Experience:
+      - company: Samsung Electronics Co., Ltd.
+        position: Mechanical Design Engineer - Full Time
+        location: Suwon, Korea
+        start_date: 2024 Jan.
+        end_date: 2025 Aug.
         highlights:
-          - Relativity
-          - Description 2.
+          - Selected for the Vice President’s Award for impactful contributions to manufacturing automation and process optimization in Galaxy Watch mass production
+          - Engineered the ultra-thin Galaxy Watch design under tight packaging constraints, applying GD&T and conducting DFM reviews with cross-functional manufacturing teams to ensure precision and manufacturability
+          - Evaluated and validated advanced manufacturing processes such as insert molding and MIM (Metal Injection Molding) for mass production through on-site process testing and verification
+          - Validated product reliability through extensive testing, including shock, water-resistance, thermal cycling, and tumble evaluations
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
+      - company: Endo Robotics Co., Ltd.
+        position: Mechanical Engineer Intern
         location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+        start_date: 2023 Jul.
+        end_date: 2023 Aug.
 
       - company: University of Zurich
         position: Associate Professor of Theoretical Physics
@@ -81,9 +67,9 @@ cv:
         start_date: 1909
         end_date: 1911
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
+    Research Experience:
+      - company: RoMeLA (Robotics & Mechanisms Laboratory)
+        position: Graduate Student Researcher, advised by Prof. Dennis Hong
         location: Zurich, Switzerland
         start_date: 2014-04-01
         end_date: 2015-07-01
