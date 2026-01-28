@@ -410,11 +410,6 @@ ninja.data = [{
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-soft-robot-platform-for-safe-endoscopic-insertion",
-          title: 'Soft Robot Platform for Safe Endoscopic Insertion',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
             },},{id: "projects-",
           title: '',
           description: "",
@@ -425,6 +420,11 @@ ninja.data = [{
           description: "Robot for Surgical Endoscopic Platform",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ROSE/";
+            },},{id: "projects-soft-robot-platform-for-safe-endoscopic-insertion",
+          title: 'Soft Robot Platform for Safe Endoscopic Insertion',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Soft%20Robot%20Platform%20for%20Safe%20Endoscopic%20Insertion/";
             },},{id: "projects-upcycling-kit",
           title: 'Upcycling Kit',
           description: "",
