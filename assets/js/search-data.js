@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -394,17 +394,13 @@ ninja.data = [{
             },},{id: "news-i-have-been-awarded-the-presidential-science-scholarship",
           title: 'I have been awarded the Presidential Science Scholarship',
           description: "",
-          section: "News",},{id: "news-announcement-2",
-          title: 'Announcement_2',
+          section: "News",},{id: "news-i-started-my-role-as-a-mechanical-design-engineer-in-samsung-electronics",
+          title: 'I started my role as a Mechanical Design Engineer in Samsung Electronics.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-announcement-3",
-          title: 'Announcement_3',
+          section: "News",},{id: "news-i-started-my-role-as-a-graduate-researcher-in-romela-robotics-and-mechanism-laboratory-advised-by-prof-dennis-hong",
+          title: 'I started my role as a graduate researcher in RoMeLa (Robotics and Mechanism...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_3/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
@@ -419,13 +415,13 @@ ninja.data = [{
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
+            },},{id: "projects-voron-2-4-open-source-3d-printer",
+          title: 'Voron 2.4 (Open-source 3D Printer)',
           description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
+            },},{id: "projects-upcycling-kit",
+          title: 'Upcycling Kit',
           description: "a project with a background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
