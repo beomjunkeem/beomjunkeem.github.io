@@ -33,5 +33,3 @@ Voron (https://vorondesign.com/), an open-source project, offers instructions, a
 <div class="caption">
     Benchy printed for the first time
 </div>
-
-{% endraw %}
