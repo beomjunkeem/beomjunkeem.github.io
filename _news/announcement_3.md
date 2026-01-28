@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
-inline: true
+date: 2025-09-10 16:11:00-0400
+inline: false
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I started my role as a graduate researcher in RoMeLa (Robotics and Mechanism Laboratory) advised by Prof. Dennis Hong!😁

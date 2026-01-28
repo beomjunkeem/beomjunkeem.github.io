@@ -31,9 +31,9 @@ I am a Graduate Researcher at [UCLA RoMeLa](https://www.romela.org/), advised by
 
 ## Research Interests
 
-- Humanoid robotics
-- Robotic hands and manipulation
-- Control systems
+- Humanoid
+- Robotic hand and manipulation
+- Robot learning
 - Mechanical design
 
 ## Education
