@@ -407,16 +407,11 @@ ninja.data = [{
           section: "News",},{id: "news-i-started-my-role-as-a-graduate-researcher-in-romela-robotics-and-mechanism-laboratory-advised-by-prof-dennis-hong",
           title: 'I started my role as a graduate researcher in RoMeLa (Robotics and Mechanism...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-robotic-hand",
+          title: 'robotic hand',
+          description: "co-design with a data collection device",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
             },},{id: "projects-",
           title: '',
           description: "",
