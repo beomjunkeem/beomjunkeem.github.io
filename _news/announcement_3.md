@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started my role as a graduate researcher in RoMeLa (Robotics and Mechanism Laboratory) advised by Prof. Dennis Hong!😁
+I started my role as a graduate researcher in RoMeLa (Robotics and Mechanism Laboratory) advised by Prof. Dennis Hong!
