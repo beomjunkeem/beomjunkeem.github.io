@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.romela.org/'>UCLA RoMeLa</a>. MS Student in Mechanical Engineering.
+subtitle: 
 
 profile:
   align: right
