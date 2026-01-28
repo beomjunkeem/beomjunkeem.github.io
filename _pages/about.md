@@ -34,7 +34,7 @@ I am a Graduate Researcher at [UCLA RoMeLa](https://www.romela.org/), advised by
 - Humanoid
 - Robotic hand and manipulation
 - Robot learning
-- Mechanical design
+
 
 ## Education
 
