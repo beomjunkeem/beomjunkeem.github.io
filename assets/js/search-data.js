@@ -407,12 +407,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-started-my-role-as-a-graduate-researcher-in-romela-robotics-and-mechanism-laboratory-advised-by-prof-dennis-hong",
           title: 'I started my role as a graduate researcher in RoMeLa (Robotics and Mechanism...',
           description: "",
-          section: "News",},{id: "projects-robotic-hand",
-          title: 'robotic hand',
-          description: "co-design with a data collection device",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-",
+          section: "News",},{id: "projects-",
           title: '',
           description: "",
           section: "Projects",handler: () => {
@@ -437,6 +432,11 @@ ninja.data = [{
           description: "modular robot featured in CES 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/modulero/";
+            },},{id: "projects-robotic-hand",
+          title: 'robotic hand',
+          description: "co-design with a data collection device",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robotic%20hand/";
             },},{id: "projects-voron-2-4",
           title: 'Voron 2.4',
           description: "Open-source 3D Printer build",
