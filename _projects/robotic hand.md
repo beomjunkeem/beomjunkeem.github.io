@@ -8,7 +8,9 @@ category: work
 related_publications: true
 ---
 
-Work in progress
+Work in progress:
+Our team is aiming to build a opensource 16+dof anthropomorphic hand with minimum sim2real gap.
+We are co-designing robotic hand and a data collection device.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

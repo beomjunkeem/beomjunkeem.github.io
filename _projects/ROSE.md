@@ -3,7 +3,7 @@ layout: page
 title: RoSE Platform
 description: Robot for Surgical Endoscopic Platform
 img: assets/img/ro2.jpg
-importance: 1
+importance: 3
 category: work
 related_publications: true
 ---
