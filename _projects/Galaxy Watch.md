@@ -10,11 +10,11 @@ related_publications: true
 
 During my tenure at Samsung Electronics as a Mechanical Design Engineer , I drove the mechanical design and mass production optimization for flagship wearable devices (Galaxy Watch Ultra & Watch 8 Classic).
 
-Automated JIG Design: Designed and developed an automated assembly JIG integrating computer vision processing (OpenCV) and step motor control (Raspberry Pi).
+- Vision-Guided Closed-Loop Assembly System: Engineered a dynamic, vision-based actuation system (OpenCV, Raspberry Pi) to actively compensate for tolerance stack-up and automate high-precision manual processes.
 
-DFM & Process Optimization: Analyzed bottlenecks in manual assembly processes and applied Design for Manufacturing (DFM) principles to resolve them.
+- DFM & Process Optimization: Analyzed bottlenecks in manual assembly processes and applied Design for Manufacturing (DFM) principles to resolve them.
 
-Mass Production Setup: Contributed to the early stabilization of the mass production line and manufacturing yield optimization
+- Mass Production Setup: Contributed to the early stabilization of the mass production line and manufacturing yield optimization
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

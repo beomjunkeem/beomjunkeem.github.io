@@ -22,13 +22,7 @@ The multi-joint forceps of the RoSE platform secure traction by holding, lifting
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ro4.gif" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-I developed a length adjuster for the tendon-sheath mechanism, where a tendon connects forceps (a minor surgical gripper) to its controller. A unique aspect of this task was removing the electric motor, which had previously responded to controller signals for forceps operation. Instead, my team redesigned the system so that the cable directly transmitted hand movements on the controller to the forceps.
+Engineered a compact tendon tensioning mechanism for a Bowden cable-driven surgical robotic gripper to mitigate cable stretch and ensure precise force transmission.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
