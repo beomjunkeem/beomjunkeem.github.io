@@ -29,15 +29,14 @@ I am a Graduate Researcher at [UCLA RoMeLa](https://www.romela.org/), advised by
 
 ## Research Interests
 
-- Humanoid
-- Robotic hand and manipulation
+- Humanoid Mechanical Design
+- Robotic Hand
 - Robot learning
 
 
 ## Education
 
 - **M.S. in Mechanical Engineering**, University of California, Los Angeles (UCLA)
-  - Research area: Humanoid mechanical design and high DOF robotic hand
 
 - **B.S. in Mechanical Engineering**, Korea University, Seoul
   - Valedictorian (top-ranked graduate of the class)
