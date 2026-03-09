@@ -1523,6 +1523,12 @@ figure.cover {
   }
 }
 
+iframe.dexexo-video-embed {
+  width: 100%;
+  max-width: 900px;
+  height: 506px !important;
+}
+
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }

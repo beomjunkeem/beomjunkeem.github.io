@@ -28,4 +28,4 @@ Mass Production Setup: Contributed to the early stabilization of the mass produc
     </div>
 </div>
 
-- All photos from samsung.com/us
+All photos from samsung.com/us
