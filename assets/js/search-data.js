@@ -422,8 +422,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PLENDY/";
-            },},{id: "projects-tracloser",
-          title: 'TraCloser',
+            },},{id: "projects-tendon-adjuster-for-surgical-gripper",
+          title: 'Tendon Adjuster for Surgical Gripper',
           description: "traction and closure gripper for Endoscopic Submucosal Dissection (ESD)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ROSE/";
