@@ -417,14 +417,14 @@ ninja.data = [{
           description: "Mechanical Component DFM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Galaxy%20Watch/";
-            },},{id: "projects-plendy-human-plant-interaction-robot",
-          title: 'PLENDY: Human-Plant Interaction robot',
-          description: "",
+            },},{id: "projects-plendy",
+          title: 'PLENDY',
+          description: "Human-Plant Interaction robot",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PLENDY/";
-            },},{id: "projects-rose",
-          title: 'Rose',
-          description: "",
+            },},{id: "projects-tracloser",
+          title: 'TraCloser',
+          description: "Traction and closure gripper for Endoscopic Submucosal Dissection (ESD)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ROSE/";
             },},{id: "projects-soft-robot-platform-for-safe-endoscopic-insertion",
