@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PLENDY: Human-Plant Interaction robot
+title: "PLENDY: Human-Plant Interaction robot"
 description:
 img: assets/img/pl.gif
 importance: 1
