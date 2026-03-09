@@ -407,14 +407,14 @@ ninja.data = [{
           section: "News",},{id: "news-i-started-my-role-as-a-graduate-researcher-in-romela-robotics-and-mechanism-laboratory-advised-by-prof-dennis-hong",
           title: 'I started my role as a graduate researcher in RoMeLa (Robotics and Mechanism...',
           description: "",
-          section: "News",},{id: "projects-",
-          title: '',
-          description: "",
+          section: "News",},{id: "projects-dexexo",
+          title: 'DexEXO',
+          description: "A Wearability-First Dexterous Exoskeleton for Operator-Agnostic Demonstration and Learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/DexEXO/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-galaxy-watch-ultra-amp-watch-8-classic",
+          title: 'Galaxy Watch Ultra &amp;amp; Watch 8 Classic',
+          description: "Automated assembly JIG design and mass production optimization for Galaxy Watch lines",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Galaxy%20Watch/";
             },},{id: "projects-",
