@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TraCloser
+title: Tendon Adjuster for Surgical Gripper
 description: traction and closure gripper for Endoscopic Submucosal Dissection (ESD)
 img: assets/img/endo/endo_thumb.png
 importance: 3
