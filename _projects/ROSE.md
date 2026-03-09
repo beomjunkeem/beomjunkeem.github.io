@@ -6,6 +6,7 @@ img: assets/img/endo/endo_thumb.png
 importance: 3
 category: work
 related_publications: false
+---
 
 The multi-joint forceps of the ROBOPERA platform secure traction by holding, lifting, and pulling the mucous membrane with a robotic gripper ([TraCloser](https://www.endorobo.com/product/tracloser.php)), thus ensuring a broader view of the area where the surgery is conducted. This improves the safety of dissection and significantly reduces the perforation rate.
 
