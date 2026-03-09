@@ -2,7 +2,7 @@
 layout: page
 title: DexEXO
 description: A Wearability-First Dexterous Exoskeleton for Operator-Agnostic Demonstration and Learning
-img: assets/img/ha1.jpg
+img: assets/img/dexexo/teaser.png
 importance: 1
 category: work
 related_publications: true
@@ -21,6 +21,6 @@ Engineered an adaptive, pose-tolerant hand exoskeleton that physically aligns hu
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://youtu.be/ATkX8puqcqA" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://www.youtube.com/embed/ATkX8puqcqA" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

@@ -1,12 +1,14 @@
 ---
 layout: page
 title: Galaxy Watch Ultra & Watch 8 Classic
-description: Automated assembly JIG design and mass production optimization for Galaxy Watch lines
-img: assets/img/ha1.jpg
+description: Mechanical Component DFM
+img: assets/img/galaxy_watch/thumbnail.jpg
 importance: 2
 category: work
 related_publications: true
 ---
+
+During my tenure at Samsung Electronics as a Mechanical Design Engineer , I drove the mechanical design and mass production optimization for flagship wearable devices (Galaxy Watch Ultra & Classic).
 
 Automated JIG Design: Designed and developed an automated assembly JIG integrating computer vision processing (OpenCV) and step motor control (Raspberry Pi).
 
@@ -19,3 +21,11 @@ Mass Production Setup: Contributed to the early stabilization of the mass produc
         {% include figure.liquid loading="eager" path="assets/img/galaxy_watch/galaxy-watch8-classic-customization-hybrid-band.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/Users/beomjunkim/Desktop/profile web/beomjunkeem.github.io/assets/img/galaxy_watch/structure.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+- All photos from samsung.com/us
