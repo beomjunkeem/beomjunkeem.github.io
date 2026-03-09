@@ -1,8 +1,7 @@
 ---
 layout: page
 title: DexEXO
-description: A Wearability-First Dexterous Exoskeleton for Operator-Agnostic
-Demonstration and Learning
+description: A Wearability-First Dexterous Exoskeleton for Operator-Agnostic Demonstration and Learning
 img: assets/img/ha1.jpg
 importance: 1
 category: work

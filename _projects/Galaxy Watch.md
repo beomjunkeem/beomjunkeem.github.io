@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Galaxy Watch Ultra & Watch 8 Classic
-description: 
-Demonstration and Learning
+description: Automated assembly JIG design and mass production optimization for Galaxy Watch lines
 img: assets/img/ha1.jpg
 importance: 2
 category: work
