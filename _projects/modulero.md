@@ -3,7 +3,7 @@ layout: page
 title: Modulero
 description: modular robot featured in CES 2025
 img: assets/img/mo2.jpg
-importance: 2
+importance: 3
 category: work
 related_publications: true
 ---

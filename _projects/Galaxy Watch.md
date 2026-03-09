@@ -1,0 +1,22 @@
+---
+layout: page
+title: Galaxy Watch Ultra & Watch 8 Classic
+description: 
+Demonstration and Learning
+img: assets/img/ha1.jpg
+importance: 2
+category: work
+related_publications: true
+---
+
+Automated JIG Design: Designed and developed an automated assembly JIG integrating computer vision processing (OpenCV) and step motor control (Raspberry Pi).
+
+DFM & Process Optimization: Analyzed bottlenecks in manual assembly processes and applied Design for Manufacturing (DFM) principles to resolve them.
+
+Mass Production Setup: Contributed to the early stabilization of the mass production line and manufacturing yield optimization
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/galaxy_watch/galaxy-watch8-classic-customization-hybrid-band.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
