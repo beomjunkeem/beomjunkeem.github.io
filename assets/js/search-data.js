@@ -414,7 +414,7 @@ ninja.data = [{
               window.location.href = "/projects/DexEXO/";
             },},{id: "projects-galaxy-watch-ultra-amp-watch-8-classic",
           title: 'Galaxy Watch Ultra &amp;amp; Watch 8 Classic',
-          description: "Automated assembly JIG design and mass production optimization for Galaxy Watch lines",
+          description: "Mechanical Component DFM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Galaxy%20Watch/";
             },},{id: "projects-",
