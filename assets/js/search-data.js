@@ -411,6 +411,16 @@ ninja.data = [{
           title: '',
           description: "",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/DexEXO/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Galaxy%20Watch/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/PLENDY/";
             },},{id: "projects-rose-platform",
           title: 'RoSE Platform',
@@ -432,11 +442,6 @@ ninja.data = [{
           description: "modular robot featured in CES 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/modulero/";
-            },},{id: "projects-robotic-hand",
-          title: 'robotic hand',
-          description: "co-design with a data collection device",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/robotic%20hand/";
             },},{id: "projects-voron-2-4",
           title: 'Voron 2.4',
           description: "Open-source 3D Printer build",
