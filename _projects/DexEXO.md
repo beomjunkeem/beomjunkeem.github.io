@@ -5,7 +5,7 @@ description: A Wearability-First Dexterous Exoskeleton for Operator-Agnostic Dem
 img: assets/img/dexexo/tweezer.gif
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 Engineered an adaptive, pose-tolerant hand exoskeleton that physically aligns human demonstrations with robotic embodiment, enabling highly scalable AI policy training.

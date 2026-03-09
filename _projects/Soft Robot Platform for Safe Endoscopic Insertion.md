@@ -5,7 +5,6 @@ description:
 img: assets/img/s1.gif
 importance: 3
 category: work
-giscus_comments: true
 ---
 
 

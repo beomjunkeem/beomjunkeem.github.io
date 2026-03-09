@@ -5,7 +5,7 @@ description: Robot for Surgical Endoscopic Platform
 img: assets/img/ro2.jpg
 importance: 3
 category: work
-related_publications: true
+related_publications: false
 ---
 
 The multi-joint forceps of the RoSE platform secure traction by holding, lifting, and pulling the mucous membrane with a robotic arm, thus ensuring a broader view of the area where the surgery is conducted. This improves the safety of dissection and significantly reduces the perforation rate.

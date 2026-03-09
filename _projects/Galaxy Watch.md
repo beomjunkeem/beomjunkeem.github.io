@@ -5,7 +5,7 @@ description: Mechanical Component DFM
 img: assets/img/galaxy_watch/ASSEMBLE_optimized.gif
 importance: 2
 category: work
-related_publications: true
+related_publications: false
 ---
 
 During my tenure at Samsung Electronics as a Mechanical Design Engineer , I drove the mechanical design and mass production optimization for flagship wearable devices (Galaxy Watch Ultra & Watch 8 Classic).
