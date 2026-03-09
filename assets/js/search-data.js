@@ -417,8 +417,8 @@ ninja.data = [{
           description: "Mechanical Component DFM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Galaxy%20Watch/";
-            },},{id: "projects-",
-          title: '',
+            },},{id: "projects-plendy-human-plant-interaction-robot",
+          title: 'PLENDY: Human-Plant Interaction robot',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PLENDY/";
