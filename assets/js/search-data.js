@@ -422,9 +422,9 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PLENDY/";
-            },},{id: "projects-tendon-adjuster-for-surgical-gripper",
-          title: 'Tendon Adjuster for Surgical Gripper',
-          description: "traction and closure gripper for Endoscopic Submucosal Dissection (ESD)",
+            },},{id: "projects-tracloser",
+          title: 'TraCloser',
+          description: "Traction and closure gripper for Endoscopic Submucosal Dissection (ESD)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ROSE/";
             },},{id: "projects-soft-robot-platform-for-safe-endoscopic-insertion",
