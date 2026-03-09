@@ -24,7 +24,7 @@ Mass Production Setup: Contributed to the early stabilization of the mass produc
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/Users/beomjunkim/Desktop/profile web/beomjunkeem.github.io/assets/img/galaxy_watch/structure.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/galaxy_watch/structure.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
