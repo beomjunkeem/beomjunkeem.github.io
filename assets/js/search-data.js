@@ -422,9 +422,9 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PLENDY/";
-            },},{id: "projects-rose-platform",
-          title: 'RoSE Platform',
-          description: "Robot for Surgical Endoscopic Platform",
+            },},{id: "projects-tracloser",
+          title: 'TraCloser',
+          description: "traction and closure gripper for Endoscopic Submucosal Dissection (ESD)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ROSE/";
             },},{id: "projects-soft-robot-platform-for-safe-endoscopic-insertion",
