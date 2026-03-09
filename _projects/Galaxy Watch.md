@@ -2,7 +2,7 @@
 layout: page
 title: Galaxy Watch Ultra & Watch 8 Classic
 description: Mechanical Component DFM
-img: assets/img/galaxy_watch/ASSEMBLE.webm
+img: assets/img/ASSEMBLE_optimized.gif
 importance: 2
 category: work
 related_publications: true
@@ -28,4 +28,4 @@ Mass Production Setup: Contributed to the early stabilization of the mass produc
     </div>
 </div>
 
-All photos from samsung.com/us
+images from samsung.com/us
