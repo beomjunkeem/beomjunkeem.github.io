@@ -46,7 +46,6 @@ Our solution involved grinding and breaking down these colorful wastes into smal
     </div>
 </div>
 
-</div>
 <div class="caption">
     Our team was awarded Top Award in Recycle Hackathon 2023
 </div>
