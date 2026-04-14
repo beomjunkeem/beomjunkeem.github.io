@@ -6,6 +6,7 @@ img: assets/img/dexexo/tweezer.gif
 importance: 1
 category: work
 related_publications: false
+redirect: https://dexexo-research.github.io/
 ---
 
 Engineered an adaptive, pose-tolerant hand exoskeleton that physically aligns human demonstrations with robotic embodiment, enabling highly scalable AI policy training.
