@@ -437,11 +437,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Upcycling/";
-            },},{id: "projects-modulero",
-          title: 'Modulero',
-          description: "modular robot featured in CES 2025",
+            },},{id: "projects-midas-hand",
+          title: 'MIDAS hand',
+          description: "A fully open-source, tactile-sensor-integrated dexterous robotic hand platform for manipulation, data collection, and robot learning research",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/modulero/";
+              window.location.href = "/projects/midas/";
             },},{id: "projects-voron-2-4",
           title: 'Voron 2.4',
           description: "Open-source 3D Printer build",
