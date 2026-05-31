@@ -3,7 +3,7 @@ layout: page
 title: Galaxy Watch Ultra & Watch 8 Classic
 description: Mechanical Component DFM
 img: assets/img/galaxy_watch/ASSEMBLE_optimized.gif
-importance: 2
+importance: 3
 category: work
 related_publications: false
 ---
