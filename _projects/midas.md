@@ -6,5 +6,5 @@ img: assets/img/midas.gif
 importance: 1
 category: work
 related_publications: false
-redirect: midas-hand.com
+redirect: https://midas-hand.com/
 ---
