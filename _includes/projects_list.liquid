@@ -1,0 +1,32 @@
+<div class="research-list projects-list">
+  {% for project in include.projects %}
+    {% if project.redirect %}
+      {% assign project_url = project.redirect %}
+    {% else %}
+      {% assign project_url = project.url | relative_url %}
+    {% endif %}
+    {% assign thumb = project.thumb | default: project.img %}
+    <div class="research-item">
+      <a class="research-thumb" href="{{ project_url }}">
+        <img src="{{ thumb | relative_url }}" alt="{{ project.title }}" loading="lazy">
+      </a>
+      <div class="research-body">
+        <div class="research-title"><a href="{{ project_url }}">{{ project.title }}</a></div>
+        {% if project.description %}<div class="research-authors">{{ project.description }}</div>{% endif %}
+        {% if project.venue %}<div class="research-venue">{{ project.venue }}</div>{% endif %}
+        {% if project.award %}<div class="research-award">&#9733; {{ project.award }} &#9733;</div>{% endif %}
+        <div class="research-links">
+          {% if project.links %}
+            {% for link in project.links %}
+              <a href="{{ link.url }}">{{ link.name }}</a>{% unless forloop.last %}<span class="sep">&bull;</span>{% endunless %}
+            {% endfor %}
+          {% elsif project.redirect %}
+            <a href="{{ project_url }}">Webpage</a>
+          {% else %}
+            <a href="{{ project_url }}">Details</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

@@ -73,3 +73,15 @@
     }
   }
 }
+
+// Same list layout reused on the projects page
+.projects-list {
+  .research-title a {
+    color: var(--global-text-color);
+    font-weight: 500;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
