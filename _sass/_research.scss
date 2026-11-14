@@ -1,0 +1,75 @@
+// Research list on the about page
+.research-list {
+  margin-top: 1rem;
+
+  .research-item {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
+
+  .research-thumb {
+    flex: 0 0 216px;
+
+    img {
+      width: 216px;
+      height: 121px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+  }
+
+  .research-body {
+    flex: 1;
+    line-height: 1.5;
+  }
+
+  .research-title {
+    color: var(--global-text-color);
+  }
+
+  .research-authors {
+    color: var(--global-text-color-light);
+
+    strong {
+      color: var(--global-text-color);
+    }
+  }
+
+  .research-venue {
+    color: var(--global-text-color-light);
+    font-style: italic;
+  }
+
+  .research-award {
+    color: #3cb371;
+    font-style: italic;
+  }
+
+  .research-links {
+    a {
+      color: var(--global-theme-color);
+    }
+
+    .sep {
+      color: var(--global-text-color-light);
+      margin: 0 0.4rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .research-item {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .research-thumb,
+    .research-thumb img {
+      width: 100%;
+      flex-basis: auto;
+      height: auto;
+      aspect-ratio: 16 / 9;
+    }
+  }
+}

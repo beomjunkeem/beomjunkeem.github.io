@@ -1,0 +1,20 @@
+<div class="research-list">
+  {% for item in site.data.research %}
+    <div class="research-item">
+      <a class="research-thumb" href="{{ item.links[0].url }}">
+        <img src="{{ item.img | relative_url }}" alt="{{ item.title | split: ':' | first }}" loading="lazy">
+      </a>
+      <div class="research-body">
+        <div class="research-title">{{ item.title }}</div>
+        <div class="research-authors">{{ item.authors | replace: 'Beom Jun Kim', '<strong>Beom Jun Kim</strong>' }}</div>
+        {% if item.venue %}<div class="research-venue">{{ item.venue }}</div>{% endif %}
+        {% if item.award %}<div class="research-award">&#9733; {{ item.award }} &#9733;</div>{% endif %}
+        <div class="research-links">
+          {% for link in item.links %}
+            <a href="{{ link.url }}">{{ link.name }}</a>{% unless forloop.last %}<span class="sep">&bull;</span>{% endunless %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

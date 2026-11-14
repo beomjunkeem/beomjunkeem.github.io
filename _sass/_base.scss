@@ -1532,3 +1532,11 @@ iframe.dexexo-video-embed {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+// Text-style social links under the bio
+.social-text {
+  margin: 0.5rem 0 1.5rem;
+  a {
+    margin-right: 1.25rem;
+  }
+}

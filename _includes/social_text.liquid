@@ -1,0 +1,22 @@
+{% assign s = site.data.socials %}
+<div class="social-text">
+  {% if s.email %}<a href="mailto:{{ s.email | encode_email }}" class="social-email" data-email="{{ s.email }}" title="{{ s.email }}">Email</a>{% endif %}
+  {% if s.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ s.scholar_userid }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+  {% if s.github_username %}<a href="https://github.com/{{ s.github_username }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+  {% if s.linkedin_username %}<a href="https://www.linkedin.com/in/{{ s.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+  {% if s.x_username %}<a href="https://x.com/{{ s.x_username }}" target="_blank" rel="noopener">X</a>{% endif %}
+</div>
+
+<script>
+  // Copy the address on click: mailto does nothing when no mail client is set up
+  document.querySelectorAll(".social-email").forEach((el) => {
+    el.addEventListener("click", (e) => {
+      if (!navigator.clipboard) return;
+      e.preventDefault();
+      navigator.clipboard.writeText(el.dataset.email).then(() => {
+        el.textContent = "Copied: " + el.dataset.email;
+        setTimeout(() => (el.textContent = "Email"), 2000);
+      });
+    });
+  });
+</script>

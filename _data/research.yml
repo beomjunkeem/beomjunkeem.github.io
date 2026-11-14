@@ -1,0 +1,38 @@
+# Research list shown on the about page (newest first).
+# Use "Beom Jun Kim" exactly in authors so it is highlighted.
+
+- title: "TriMI: A Tri-Modal Manipulation Interface for Direct Demonstration, Joint-Level Haptic Teleoperation, and Robotic Execution"
+  authors: "Mingzhang Zhu, Quanyou Wang*, Beom Jun Kim*, Jonathan Liu*, Alden Copps, Daniel Koh, Alvin Zhu, Dennis Hong"
+  award: "CoRL UMI Arena Top 3 Finalist"
+  img: assets/img/trimi/trimi_dual.gif
+  links:
+    - name: Webpage
+      url: https://trimi-hand.github.io/
+
+- title: "MIDAS Hand: Modular Low-Impedance Direct-Drive Anthropomorphic Sensing Hand"
+  authors: "Alvin Zhu*, Mingzhang Zhu*, Beom Jun Kim*, Quanyou Wang*, Jose Victor S. H. Ramos*, Dennis Hong"
+  venue: "arXiv preprint, 2026"
+  img: assets/img/midas/midas_tool.gif
+  links:
+    - name: Webpage
+      url: https://midas-hand.com/
+    - name: Paper
+      url: https://arxiv.org/abs/2607.14487
+    - name: Code
+      url: https://github.com/midas-hand-org
+    - name: CAD
+      url: https://midas-hand.com/cad.html
+
+- title: "DexEXO: A Wearability-First Dexterous Exoskeleton for Operator-Agnostic Demonstration and Learning"
+  authors: "Alvin Zhu*, Mingzhang Zhu*, Beom Jun Kim, Jose Victor S. H. Ramos, Yike Shi, Yufeng Wu, Raayan Dhar, Fuyi Yang, Ruochen Hou, Hanzhang Fang, Quanyou Wang, Yuchen Cui†, Dennis W. Hong†"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026"
+  img: assets/img/dexexo/dexexo_dual.gif
+  links:
+    - name: Webpage
+      url: https://dexexo-research.github.io/
+    - name: Paper
+      url: https://arxiv.org/abs/2603.17323
+    - name: Video
+      url: https://dexexo-research.github.io/#full-video
+    - name: CAD
+      url: https://cad.onshape.com/documents/9d0951a3277fbeb5ba418f99/w/cf7e5ff15e0c9dc9f2eef6ce/e/bf3c476ef275f3aa8b545a9a
