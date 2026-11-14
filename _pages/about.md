@@ -12,7 +12,7 @@ profile:
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Graduate Researcher at [UCLA RoMeLa](https://www.romela.org/), advised by Prof. Dennis Hong. Previously, I worked as a Mechanical Design Engineer at [Samsung Electronics](https://www.samsung.com/us/), where I played a key role in the mechanical design and mass production of the [Galaxy Watch series](https://www.samsung.com/us/watches/galaxy-watch8-classic/). Bringing my industry experience in DFM (Design for Manufacturing) and precision engineering to robotics, I am currently researching humanoid hardware platforms, focusing on robotic hands and robotic skin.
+I am a second-year Ph.D. student at [UCLA RoMeLa](https://www.romela.org/), advised by Prof. Dennis Hong. Previously, I worked as a Mechanical Design Engineer at [Samsung Electronics](https://www.samsung.com/us/), where I played a key role in the mechanical design and mass production of the [Galaxy Watch series](https://www.samsung.com/us/watches/galaxy-watch8-classic/). Bringing my industry experience in DFM (Design for Manufacturing) and precision engineering to robotics, I am currently researching humanoid hardware platforms, focusing on robotic hands and robotic skin.
 
 ## Research Interests
 
@@ -34,12 +34,6 @@ I am a Graduate Researcher at [UCLA RoMeLa](https://www.romela.org/), advised by
 - Robot learning
 
 
-## Education
+## Research
 
-- **M.S. in Mechanical Engineering**, University of California, Los Angeles (UCLA)
-
-- **B.S. in Mechanical Engineering**, Korea University, Seoul
-  - Valedictorian (top-ranked graduate of the class)
-  - Presidential Science Scholarship Recipient
-
-
+{% include research.liquid %}
