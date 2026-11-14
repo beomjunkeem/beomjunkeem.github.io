@@ -16,20 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-awards",
-          title: "Awards",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/awards/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -417,31 +403,16 @@ ninja.data = [{
           description: "Mechanical Component DFM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Galaxy%20Watch/";
-            },},{id: "projects-plendy",
-          title: 'PLENDY',
-          description: "Human-Plant Interaction robot",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/PLENDY/";
-            },},{id: "projects-tracloser",
-          title: 'TraCloser',
-          description: "Traction and closure gripper for Endoscopic Submucosal Dissection (ESD)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ROSE/";
-            },},{id: "projects-soft-robot-platform-for-safe-endoscopic-insertion",
-          title: 'Soft Robot Platform for Safe Endoscopic Insertion',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Soft%20Robot%20Platform%20for%20Safe%20Endoscopic%20Insertion/";
-            },},{id: "projects-upcycling-kit",
-          title: 'Upcycling Kit',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Upcycling/";
             },},{id: "projects-midas-hand",
           title: 'MIDAS hand',
           description: "A fully open-source, tactile-sensor-integrated dexterous robotic hand platform for manipulation, data collection, and robot learning research",
           section: "Projects",handler: () => {
               window.location.href = "/projects/midas/";
+            },},{id: "projects-trimi",
+          title: 'TriMI',
+          description: "A Tri-Modal Manipulation Interface for Direct Demonstration, Joint-Level Haptic Teleoperation, and Robotic Execution",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/trimi/";
             },},{id: "projects-voron-2-4",
           title: 'Voron 2.4',
           description: "Open-source 3D Printer build",
@@ -458,13 +429,6 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -472,32 +436,32 @@ ninja.data = [{
           window.open("mailto:%62%6A%30%30%37@%75%63%6C%61.%65%64%75", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=stgSuiwAAAAJ", "_blank");
         },
       },{
         id: 'social-github',
-        title: 'Github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://github.com/beomjunkeem", "_blank");
         },
       },{
         id: 'social-linkedin',
-        title: 'Linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://www.linkedin.com/in/junkeem", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/junkeem0", "_blank");
         },
       },{
       id: 'light-theme',
