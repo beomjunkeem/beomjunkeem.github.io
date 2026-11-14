@@ -9,6 +9,18 @@
     - name: Webpage
       url: https://trimi-hand.github.io/
 
+- title: "DexDirect: Direct Kinesthetic Arm Guidance for Efficient Dexterous Demonstration Collection"
+  authors: "Beom Jun Kim, Shiu-Jen Wang, Jonathan Liu, Alvin Zhu, Quanyou Wang, Hanzhang Fang, Feng Xu, Mingzhang Zhu, Yuchen Cui†, Dennis W. Hong†"
+  venue: "IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2026"
+  img: assets/img/dexdirect/dexdirect_wide.gif
+  links:
+    - name: Webpage
+      url: https://dexdirect.github.io/dexdirect/
+    - name: Paper
+      url: https://arxiv.org/abs/2607.27784
+    - name: Video
+      url: https://dexdirect.github.io/dexdirect/#video
+
 - title: "MIDAS Hand: Modular Low-Impedance Direct-Drive Anthropomorphic Sensing Hand"
   authors: "Alvin Zhu*, Mingzhang Zhu*, Beom Jun Kim*, Quanyou Wang*, Jose Victor S. H. Ramos*, Dennis Hong"
   venue: "arXiv preprint, 2026"
