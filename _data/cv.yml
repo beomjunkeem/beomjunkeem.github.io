@@ -8,11 +8,13 @@ cv:
 
   social_networks:
     - network: X
-      username: junkeem1
+      username: junkeem0
+      url: https://x.com/junkeem0
     - network: GitHub
       username: beomjunkeem
     - network: LinkedIn
-      username: Jun Kim
+      username: junkeem
+      url: https://www.linkedin.com/in/junkeem/
 
   address:
     street: 
