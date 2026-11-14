@@ -403,6 +403,11 @@ ninja.data = [{
           description: "Mechanical Component DFM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Galaxy%20Watch/";
+            },},{id: "projects-dexdirect",
+          title: 'DexDirect',
+          description: "Direct Kinesthetic Arm Guidance for Efficient Dexterous Demonstration Collection",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dexdirect/";
             },},{id: "projects-midas-hand",
           title: 'MIDAS hand',
           description: "A fully open-source, tactile-sensor-integrated dexterous robotic hand platform for manipulation, data collection, and robot learning research",
