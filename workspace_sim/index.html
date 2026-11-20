@@ -873,7 +873,8 @@ if (!A || !C) throw new Error('robot_assets.js or workspace_core.js missing');
 const DEG = Math.PI / 180;
 const arm = new C.Arm(A.kinematics);
 const H6T = C.T(A.hand.hand_in_link6.flat());          // R_hand_link6 (hand_in_link6 columns = hand axes in link6)
-const STORE = 'piper-workspace-scene-v1';
+// Autosave key: bump its version whenever defaults() changes, so an older autosave does not hide the new defaults.
+const STORE = 'piper-workspace-scene-v2';
 const ROLLS = Array.from({ length: 12 }, (_, i) => -180 + 30 * i);
 // Cart and post of the current rig (analysis.py CART_BOXES): centre and half extents, world axes.
 const CART = [{ name: 'cart', center: [-0.195, -0.141, 0.300], half: [0.215, 0.215, 0.300] },
@@ -900,21 +901,23 @@ function defaults() {
   const limits = {};
   URDF_LIMITS.forEach(([lo, hi], i) => { limits[`j${i + 1}lo`] = lo; limits[`j${i + 1}hi`] = hi; });
   return {
-    hand: { yaw: 0, pitch: 0, roll: 0, relative: true, anyRoll: false, tcpFingers: A.hand.tcp_default[2], tcpPalm: 0 },
-    base: { x: 0, y: 0, z: 0.867, roll: 90, pitch: 0, yaw: 0 },           // current rig: post, J1 south
-    desk: { x: 0.27, y: 0.132, width: 0.50, depth: 0.976, height: 0.417, yaw: 0 },
-    person: { show: true, collide: true, x: 0.15, y: -0.51, facing: 90, height: 1.75 },
+    // config 2, the chosen layout: base at 1.2 m (roll 90, yaw 90) beside the person, hand 36 deg left of the
+    // person's facing and 28 deg fingers down, 0.5 cm clearance to the desk and cart, none to the person or arm
+    hand: { yaw: 36, pitch: 28, roll: 0, relative: true, anyRoll: false, tcpFingers: A.hand.tcp_default[2], tcpPalm: 0 },
+    base: { x: 0, y: 0, z: 1.2, roll: 90, pitch: 0, yaw: 90 },
+    desk: { x: 0.271, y: 0.43, width: 0.50, depth: 0.976, height: 0.75, yaw: 0 },
+    person: { show: true, collide: true, x: -0.255, y: 0.225, facing: 51, height: 1.7 },
     cart: true,
-    checks: { env: true, self: true, clrEnv: 0.02, clrPerson: 0.03, clrSelf: 0.01 },
+    checks: { env: true, self: true, clrEnv: 0.005, clrPerson: 0, clrSelf: 0 },
     limits,
     view: { spacing: 0.02, colorBy: 'margin', pointSize: 0.3, showPoints: true, showBlocked: false, blockedReason: 'all',
             slice: 'none', sliceLo: 0.45, sliceHi: 0.55, showTask: true, taskLo: 0.05, taskHi: 0.35, showArm: true,
             gizmo: 'target', gizmoMode: 'translate', markSing: true, singWrist: 10, singElbow: 10, singShoulder: 0.08,
             playSpeed: 0.15, playLoop: false },
-    range: { on: false, yawLo: 0, yawHi: 30, yawStep: 15, pitchLo: 0, pitchHi: 60, pitchStep: 15,
-             rollLo: -30, rollHi: 30, rollStep: 15, minShare: 1 },
-    target: { x: 0.30, y: 0.05, z: 0.62 },
-    camera: { x: 1.65, y: 1.55, z: 1.45, tx: 0.15, ty: -0.05, tz: 0.6 },
+    range: { on: false, yawLo: 0, yawHi: 45, yawStep: 15, pitchLo: 0, pitchHi: 90, pitchStep: 15,
+             rollLo: -90, rollHi: 90, rollStep: 30, minShare: 0.5 },
+    target: { x: 0.33, y: 0.41, z: 0.97 },
+    camera: { x: 1.45, y: -1.25, z: 1.85, tx: 0.08, ty: 0.3, tz: 0.95 },
   };
 }
 function merge(dst, src) {
@@ -1676,7 +1679,7 @@ function applyScene(scene, name) {
   loopEl.checked = P.view.playLoop;
   rebuildAll(); applyCamera();
 }
-const cfgState = { name: 'config 1', chosen: '' };
+const cfgState = { name: 'config 2', chosen: '' };
 fCfg.add(cfgState, 'name').name('Name');
 fCfg.add({ f() {
   const name = cfgState.name.trim();
@@ -1750,7 +1753,7 @@ fCfg.add({ f() {
   (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(
     () => alert('Copied the layout for scripts/workspace/analysis.py:\n\n' + text), () => prompt('Copy the layout:', text));
 } }, 'f').name('Copy layout for analysis.py');
-fCfg.add({ f() { if (confirm('Reset every setting to the defaults?')) applyScene(defaults(), 'config 1'); } }, 'f').name('Reset to defaults');
+fCfg.add({ f() { if (confirm('Reset every setting to the defaults (config 2)?')) applyScene(defaults(), 'config 2'); } }, 'f').name('Reset to defaults (config 2)');
 refreshConfigList();
 fCfg.close();
 
